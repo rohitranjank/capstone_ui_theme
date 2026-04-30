@@ -1,4 +1,4 @@
-import THEMES from '../data/themes'
+import THEMES from '../data/Themes'
 import { useTheme } from '../context/ThemeContext'
 
 const TABS = ['All', 'Light', 'Dark', 'Favorites']
