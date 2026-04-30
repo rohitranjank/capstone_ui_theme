@@ -5,7 +5,7 @@ import {
   useEffect,
   useState,
 } from "react";
-import THEMES from "../data/themes";
+import THEMES from "../data/Themes";
 
 const ThemeContext = createContext(null);
 
