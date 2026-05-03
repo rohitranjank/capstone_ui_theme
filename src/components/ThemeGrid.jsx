@@ -1,7 +1,7 @@
 import ThemeCard from './ThemeCard'
 
 export default function ThemeGrid({ themes, filter, search }) {
-  // ── Empty state ───────────────────────────────────────────
+  // ── Empty state──
   if (themes.length === 0) {
     return (
       <div className="theme-grid__empty">
@@ -17,7 +17,7 @@ export default function ThemeGrid({ themes, filter, search }) {
     )
   }
 
-  // ── Grid of cards ─────────────────────────────────────────
+  // ── Grid of cards
   return (
     <div className="theme-grid">
       {themes.map((theme) => (
